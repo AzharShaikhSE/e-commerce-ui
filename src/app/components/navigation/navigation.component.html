@@ -1,0 +1,25 @@
+<mat-toolbar color="primary">
+  ShakerMites
+  <!--
+    here we can have different tabs for different pages and use angular router to navigate between them
+    for now based on time we will just have icons and no navigation to other pages
+  -->
+  <button mat-button routerLink="">
+    <mat-icon>home</mat-icon>
+    Home
+  </button>
+
+  <div class="spacer">
+
+    <button  mat-button>
+      <mat-icon>login</mat-icon>
+      Login
+    </button>
+
+    <button mat-button routerLink="register">
+      <mat-icon>app_registration</mat-icon>
+      Register
+    </button>
+  </div>
+
+</mat-toolbar>
